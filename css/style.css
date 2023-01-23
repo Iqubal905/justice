@@ -1,5 +1,30 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .banner-img{
     background-image: url("../images/banner.png");
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+.slider-img-1{
+    background-image: url("../images/slider-1.jpg");
+    height: 70vh;
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider-img-2{
+    background-image: url("../images/slider-2.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-img-3{
+    background-image: url("../images/slider-3.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
