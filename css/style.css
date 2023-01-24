@@ -28,3 +28,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.justice-slider-opacity{
+    background-color: rgb(14, 13, 13) !important;
+  opacity: 0.8 !important;
+}
