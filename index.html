@@ -17,10 +17,10 @@
   <!-- heaader-serction -->
        <header class="container">
          
-                <nav class="navbar navbar-expand-lg bg- text-warning">
+                <nav class="navbar navbar-expand-lg bg- text-primary py-4">
                     <div class="container-fluid d-flex justify-content-between">
                      <div class="">
-                        <img src="images/logo2.png" class="text-warning"  alt="">
+                        <img src="images/logo2.png" class=""  alt="">
                        
                      </div>
                     
@@ -28,24 +28,24 @@
                       
                             <div>
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class=" nav-item">
-                                      <a class="nav-link"  href="">Home</a>
+                                    <li class=" nav-item ">
+                                      <a class="nav-link text-primary"  href="">Home</a>
                                       
                                     </li>
                                     <li class="nav-item d-flex align-items-center">
-                                      <a class="nav-link" href="#">Services</a>
+                                      <a class="nav-link text-primary" href="#">Services</a>
                                       <i class="fa-solid fa-angle-right"></i>
                                     </li>
                                     <li class="nav-item d-flex align-items-center">
-                                        <a class="nav-link" href="#">Cases</a>
+                                        <a class="nav-link text-primary" href="#">Cases</a>
                                         <i class="fa-solid fa-angle-right"></i>
                                       </li>
                                       <li class="nav-item d-flex align-items-center">
-                                        <a class="nav-link" href="#">Blog</a>
+                                        <a class="nav-link text-primary" href="#">Blog</a>
                                         <i class="fa-solid fa-angle-right"></i>
                                       </li>
                                       <li class="nav-item d-flex align-items-center">
-                                        <a class="nav-link" href="#">Contact Us</a>
+                                        <a class="nav-link text-primary" href="#">Contact Us</a>
                                         <i class="fa-solid fa-angle-right"></i>
                                       </li>
                                     
@@ -53,20 +53,43 @@
                                   </ul>
                             </div>
                       
-                        
-                     <button class="btn btn-outline-success" type="submit">Free Consultation</button>
+                         <!-- Button trigger modal -->
+                            <button type="button" class="btn  btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Free Consultation</button>
                      
                     </div>
                  </nav>
 
+                
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn text-light bg-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
                  <!-- header-banner -->
                  <div class="banner-img d-flex justify-content-center align-items-center text-light pb-5 -pt-5">
-                   <div class=" text-center w-50 ">
-                    <h2 class="display-3 fw-bold">We Provide Effective <br> Legal Solutions</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                   <div class=" text-center w-75 px-5">
+                    <h2 class="display-4 fw-bold">We Provide Effective <br> Legal Solutions</h2>
+                    <p class="text-primary py-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <div class="d-flex justify-content-center   ">
-                        <input class=" me-2 ms-5 p-2 w-75" type="search" placeholder="Search your services" aria-label="Search">
-                        <button class="me-5 w-25 btn btn-outline-success" type="submit">Search</button>
+                        <input class=" me-2 ms-5 p-2 w-75 rounded" type="search" placeholder="Search your services" aria-label="Search">
+                        <button class="me-5 w-25 btn btn-primary" type="submit">Search</button>
                 
                     </div>
                    </div>
