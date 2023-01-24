@@ -32,3 +32,22 @@ body{
     background-color: rgb(14, 13, 13) !important;
   opacity: 0.8 !important;
 }
+
+@media only screen and (max-width: 768px) {
+   .legal-banner{
+    font-size: 25px!important;
+   }
+.legal-banner-width{
+    width:100% !important;
+    padding: 0 2% !important;
+   }
+.banner-img{
+    padding-bottom: 0 !important;
+}
+.legal-container{
+    margin-top: -200px !important;
+}
+.legal-con{
+    padding-top: 30px !important;
+}
+  }
